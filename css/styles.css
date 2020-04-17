@@ -1,20 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 header {
     width: 1170px;
-    margin: auto;
-    box-sizing: border-box; 
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 68px; 
 }
 
 .menu {
     width: 1110px;
+    height: 100px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     margin: auto;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+.menu-list {
+    margin: 0;
+    padding-top: 3px;
+    float: right;
+    width: 470px;
+    padding-left: 0;
 }
 
 .menu-list-item {
-    float: right;
+    float: left;
+    list-style: none;
+}
+
+.menu-list-item a {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f0101;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.786;
+    text-decoration: none;
+}
+
+.menu-list-item a:hover {
+    color: #1abc9c;
+}
+
+.menu-list-item a:focus {
+    color: #1abc9c;
+}
+
+.menu-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .logo::first-letter {
@@ -27,6 +65,7 @@ header {
 }
 
 .logo {
+    display: inline-block;
     font-size: 30px;
     font-family: "Roboto";
     color: #555252;
@@ -38,19 +77,38 @@ header {
 
 .container {
     width: 1170px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box; 
+}
+
+h2 {
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 0.667;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.products-list::before {
+    display: block;
+    width: 162px;
+    height: 8px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    content: "";
 }
 
 .products-container {
     width: 1140px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 .products-list {
     width: 1110px;
-    margin: auto;
+    margin: 0 auto;
     list-style: none;
     padding: 0;
 }
@@ -58,6 +116,10 @@ header {
 .products-list-item {
     width: 255px;
     float: left;
+}
+
+.products-list-item:nth-child(-n+4) {
+    padding-top: 92px;
 }
 
 .products-list-item:not(:nth-child(4n+4)) {
@@ -70,28 +132,63 @@ header {
     clear: both;
 }
 
-h2 {
-    text-align: center;
-}
-
-.products-list-item img {
+.prod-wrapper{
     background-color: #e9f0fd;
+    background-size: cover;
 }
 
 .news-section {
     width: 1140px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 .news-container {
     width: 1110px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
 .news {
-    width: 1110px;
-    margin: auto;
-    box-sizing: border-box;    
+    width: 350px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 92px;
 }
+
+.news:not(:last-child) {
+    margin-right: 30px;
+}
+
+.news-container::before {
+    display: block;
+    width: 162px;
+    height: 8px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    content: "";
+}
+
+.news-heading {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #555252;
+    line-height: 1.444;
+    margin: 0;
+}
+
+.news img {
+    margin-bottom: 8px;
+}
+
+
+.news-text  {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(85, 82, 82);
+    line-height: 1.857;
+    margin: 0;
+  }
+  

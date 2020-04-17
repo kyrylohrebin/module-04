@@ -177,12 +177,12 @@ h2 {
     color: #555252;
     line-height: 1.444;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .news img {
     margin-bottom: 8px;
 }
-
 
 .news-text  {
     font-size: 14px;
@@ -193,7 +193,13 @@ h2 {
     padding-top: 28px;
   }
  
-  .news-heading::after {
+  .row-wrapper {
+    width: 350px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+  .row-wrapper::before {
     display: block;
     width: 136px;
     height: 3px;

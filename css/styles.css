@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+header {
+    width: 1170px;
+    margin: auto;
+    box-sizing: border-box; 
+}
+
+.menu {
+    width: 1110px;
+    margin: auto;
+    box-sizing: border-box; 
+}
+
+.menu-list-item {
+    float: right;
+}
+
+.logo::first-letter {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 900;
+    color: #1abc9c;
+    text-transform: uppercase;
+    line-height: 1.067;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: #555252;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.067;
+    margin: 0px;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    box-sizing: border-box; 
+}
+
+.products-container {
+    width: 1140px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.products-list {
+    width: 1110px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.products-list-item {
+    width: 255px;
+    float: left;
+}
+
+.products-list-item:not(:nth-child(4n+4)) {
+    margin-right: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+}
+
+.products-list-item img {
+    background-color: #e9f0fd;
+}
+
+.news-section {
+    width: 1140px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.news-container {
+    width: 1110px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.news {
+    width: 1110px;
+    margin: auto;
+    box-sizing: border-box;    
+}

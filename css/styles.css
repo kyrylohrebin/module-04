@@ -190,5 +190,13 @@ h2 {
     color: rgb(85, 82, 82);
     line-height: 1.857;
     margin: 0;
+    padding-top: 28px;
   }
-  
+ 
+  .news-heading::after {
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    content: "";
+}

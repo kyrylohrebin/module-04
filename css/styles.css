@@ -150,7 +150,7 @@ h2 {
 }
 
 .news {
-    width: 350px;
+    width: 352px;
     margin: 0 auto;
     box-sizing: border-box;
     float: left;
@@ -158,7 +158,7 @@ h2 {
 }
 
 .news:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 27px;
 }
 
 .news-container::before {
@@ -194,7 +194,6 @@ h2 {
   }
  
   .row-wrapper {
-    width: 350px;
     margin: 0 auto;
     box-sizing: border-box;
 }

@@ -5,18 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 header {
-    width: 1170px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    margin-bottom: 68px; 
+    margin: 0 auto 68px;
+    width: 1110px;
 }
 
 .menu {
-    width: 1110px;
     height: 100px;
     padding-top: 34px;
     padding-bottom: 34px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -76,7 +73,7 @@ header {
 }
 
 .container {
-    width: 1170px;
+    width: 1110px;
     margin: 0 auto;
     box-sizing: border-box; 
 }
@@ -96,18 +93,16 @@ h2 {
     width: 162px;
     height: 8px;
     background-color: #1abc9c;
-    margin: 0 auto;
+    margin: 0 auto 92px;
     content: "";
 }
 
 .products-container {
-    width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto 102px;
     box-sizing: border-box;
 }
 
 .products-list {
-    width: 1110px;
     margin: 0 auto;
     list-style: none;
     padding: 0;
@@ -118,8 +113,34 @@ h2 {
     float: left;
 }
 
-.products-list-item:nth-child(-n+4) {
-    padding-top: 92px;
+.products-list-item:nth-child(-4n+4) {
+    margin-bottom: 30px;
+}
+
+.prod-name {
+display: block;
+margin: 0;
+font-size: 18px;
+font-family: "Roboto";
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+line-height: 1.778;
+background-color: #323232;
+}
+
+.price {
+    float: right;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.439;
+  }
+
+.prod-name a {
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    float: left;
 }
 
 .products-list-item:not(:nth-child(4n+4)) {
